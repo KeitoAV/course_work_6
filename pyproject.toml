@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "course-work-6"
+version = "0.1.0"
+description = ""
+authors = ["KeitoAV <keito_ekka@mail.ru>"]
+readme = "README.md"
+packages = [{include = "course_work_6"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+psycopg2 = "^2.9.5"
+djangorestframework = "^3.14.0"
+djoser = "^2.1.0"
+djangorestframework-simplejwt = "^5.2.2"
+django-filter = "^22.1"
+drf-spectacular = "^0.24.2"
+django-cors-headers = "^3.13.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
